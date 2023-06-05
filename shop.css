@@ -1,0 +1,554 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.nav1 {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav1 i:hover {
+    transform: scale(110%);
+    color: black;
+}
+
+.nav1 h1 {
+    border: 2px solid black;
+    padding: 5px;
+    font-weight: 500;
+}
+
+.nav1 input {
+    width: 60px;
+    text-align: center;
+    border: none;
+    margin-left: 10px;
+    transition: transform 0.3s ease;
+}
+
+.nav1 input:hover {
+    transform: scale(110%);
+
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.nav-left input:focus {
+    outline: none;
+}
+
+.nav-left i {
+    margin-left: 10px;
+    color: rgb(87, 86, 86);
+}
+
+.nav-right i {
+    color: rgb(87, 86, 86);
+    margin: 5px;
+    transition: transform 0.3s ease;
+}
+
+
+.nav2 {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(128, 128, 128, 0.199);
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+.nav2 a {
+    text-decoration: none;
+    color: black;
+    margin: 14px;
+
+}
+
+#ana {
+    color: #853de6;
+}
+
+.nav2 a:hover {
+    color: #853de6;
+}
+
+main {
+    position: relative;
+    height: 1450px;
+    width: 95%;
+    margin: 30px auto;
+    border-bottom: 1px solid rgb(196, 196, 196);
+    padding-bottom: 20px;
+}
+
+.home {
+    width: 100%;
+    height: 50px;
+    background-color: rgba(202, 202, 202, 0.288);
+    display: flex;
+
+}
+
+.home p {
+    margin-left: 20px;
+
+}
+
+.purple {
+    color: #853de6;
+    transition: transform 0.3s ease;
+}
+
+.first-aside p:hover {
+    transform: scale(102%);
+    cursor: pointer;
+}
+
+
+aside  {
+    width: 210px;
+    padding: 13px;
+}
+
+.first-aside {
+    border: 1px solid grey;
+    width: 100%;
+    padding: 10px;
+}
+
+.gap1 {
+    margin-right: 120px;
+}
+
+.gap2 {
+    margin-right: 93px;
+}
+
+.gap3 {
+    margin-right: 89px;
+}
+
+.second-aside {
+    border: 1px solid grey;
+    width: 100%;
+    padding: 10px;
+}
+
+.line-wraper {
+    position: relative;
+    width: 200px;
+}
+
+.line {
+    width: 200px;
+    height: 3px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.line2 {
+    width: 90px;
+    height: 4px;
+    background-color: #853de6;
+    position: absolute;
+    top: 0;
+    left: 40px;
+}
+
+.dot1 {
+    width: 10px;
+    height: 10px;
+    background-color: #853de6;
+    border-radius: 50%;
+    position: absolute;
+    left: 40px;
+    top: -2px;
+    transition: transform 0.3s ease;
+}
+
+.dot1:hover {
+    transform: scale(110%);
+    cursor: pointer;
+}
+
+.dot2 {
+    width: 10px;
+    height: 10px;
+    background-color: #853de6;
+    border-radius: 50%;
+    position: absolute;
+    left: 130px;
+    top: -2px;
+    transition: transform 0.3s ease;
+}
+
+.dot2:hover {
+    transform: scale(110%);
+    cursor: pointer;
+}
+
+.radio-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.radio-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+input[type="radio"] {
+    width: 16px;
+    height: 16px;
+    border: 2px solid #999;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+label:hover {
+    color: #853de6;
+}
+
+.flex-wraper {
+    display: flex;
+    flex-direction: column;
+}
+
+.color-item{
+ display: flex;
+ align-items: center;
+ gap: 20px;   
+}
+
+.red {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: red;
+    transition: transform 0.3s ease;
+}
+
+.red:hover {
+    transform: scale(110%);
+    cursor: pointer;
+}
+
+.green {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: green;
+    transition: transform 0.3s ease;
+}
+
+.green:hover {
+    transform: scale(110%);
+    cursor: pointer;
+}
+
+.blue {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: rgb(64, 238, 223);
+    transition: transform 0.3s ease;
+}
+
+.blue:hover {
+    transform: scale(110%);
+    cursor: pointer;
+}
+
+.purple1 {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #853de6;
+    transition: transform 0.3s ease;
+}
+
+.purple1:hover {
+    transform: scale(110%);
+    cursor: pointer;
+}
+
+.top {
+    width: 1400px;
+    position: absolute;
+    top: 20px;
+    left: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+select {
+    width: 150px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #d8d8d8;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+}
+
+option {
+    background-color: #fff;
+    color: #333;
+}
+
+/* Style the selected option */
+option:checked {
+    background-color: #853de6;
+    color: #fff;
+}
+
+.products {
+    width: 1400px;
+    height: 1300px;
+    position: absolute;
+    top: 110px;
+    left: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+
+.product {
+    width: 400px;
+    height: 410px;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    margin: 8px;
+}
+
+.product:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    }
+
+
+.img1 {
+    width: 400px;
+    height: 280px;
+}
+
+
+.product h4 {
+    color: #853de6;
+}
+
+.wraper p {
+    color: grey;
+    margin-top: -15px;
+}
+
+.sh4 {
+    margin-top: -10px;
+}
+
+
+.third {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+}
+
+.wraper11 {
+    display: flex;
+    gap: 30px;
+}
+
+.collection1 {
+    background-image: url(./images/women.jpg);
+    width: 500px;
+    height: 550px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    transition: background-size 0.3s ease-in-out;
+}
+
+.collection2 {
+    background-image: url(./images/children.jpg);
+    width: 500px;
+    height: 550px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    transition: background-size 0.3s ease-in-out;
+}
+
+.collection3 {
+    background-image: url(./images/men.jpg);
+    width: 500px;
+    height: 550px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    transition: background-size .3s ease-in-out;
+}
+
+.collection1:hover,
+.collection2:hover,
+.collection3:hover {
+    background-size: 110%;
+
+}
+
+.cl-text {
+    position: absolute;
+    bottom: 0px;
+    left: 10px;
+    color: white;
+
+}
+
+.cl-text h2 {
+    font-size: 40px;
+
+}
+
+.cl-text p {
+    position: absolute;
+    margin-bottom: 10px;
+}
+
+.collection1::before,
+.collection2::before,
+.collection3::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.5;
+
+}
+
+.sixth {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 30px;
+    border-top: 1px solid rgb(196, 196, 196);
+
+}
+
+.sixth img {
+    width: 280px;
+}
+
+.address,
+.number,
+.email {
+    display: flex;
+    gap: 10px;
+}
+
+.sixth i {
+    margin-top: 9px;
+    height: 30px;
+}
+
+.sixth p {
+    color: rgb(105, 105, 105);
+    transition: transform 0.3s ease;
+}
+
+.sixth p:hover {
+    transform: translatey(-3px);
+    cursor: pointer;
+}
+
+#purple {
+    color: #853de6;
+}
+
+.sixth div {
+    height: 30px;
+}
+
+.a1 {
+    margin-top: 60px;
+}
+
+.a2 {
+    margin-top: 60px;
+}
+
+.wraper3 {
+    position: relative;
+    width: 220px;
+    height: 30px;
+}
+
+.email {
+    width: 220px;
+    height: 30px;
+}
+
+.send {
+    height: 36px;
+    width: 60px;
+    position: absolute;
+    top: 0;
+    right: -7px;
+    background-color: #853de6;
+    color: #d6bbec;
+    font-size: 12px;
+    transition: transform 0.3s ease;
+}
+
+.send:hover {
+    transform: scale(105%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.76);
+    cursor: pointer;
+}
+
+
+
+.seventh {
+    width: 100%;
+    height: 40px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}

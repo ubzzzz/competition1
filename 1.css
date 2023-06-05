@@ -1,0 +1,459 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.nav1 {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav1 i:hover {
+    transform: scale(110%);
+    color: black;
+}
+
+.nav1 h1 {
+    border: 2px solid black;
+    padding: 5px;
+    font-weight: 500;
+}
+
+.nav1 input {
+    width: 60px;
+    text-align: center;
+    border: none;
+    margin-left: 10px;
+    transition: transform 0.3s ease;
+}
+
+.nav1 input:hover {
+    transform: scale(110%);
+    
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.nav-left input:focus {
+    outline: none;
+}
+
+.nav-left i {
+    margin-left: 10px;
+    color: rgb(87, 86, 86);
+}
+
+.nav-right i {
+    color: rgb(87, 86, 86);
+    margin: 5px;
+    transition: transform 0.3s ease;
+}
+
+
+.nav2 {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(128, 128, 128, 0.199);
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+.nav2 a {
+    text-decoration: none;
+    color: black;
+    margin: 14px;
+    
+}
+
+#ana {
+    color: #853de6;
+}
+
+.nav2 a:hover {
+    color: #853de6;
+}
+
+.first {
+    width: 100%;
+    height: 730px;
+    background-image: url(./images/hero_1.jpg);
+    position: relative;
+}
+
+.hero-text {
+    position: absolute;
+    right: 250px;
+    top: 200px;
+    width: 600px;
+}
+
+.hero-text h1 {
+    font-size: 70px;
+    margin-bottom: -5px;
+}
+
+.hero-text button {
+    width: 120px;
+    height: 40px;
+    background-color: #853de6;
+    color: #d6bbec;
+    border-radius: 5px;
+    margin-top: 10px;
+    border: none;
+    transition: transform 0.3s ease;
+}
+
+.hero-text button:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.76);
+    cursor: pointer;
+}
+
+.second {
+    width: 100;
+    height: 150px;
+    border-bottom: 1px solid rgba(204, 204, 204, 0.575);
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    
+}
+
+.feature {
+    width: 300px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;  
+    
+    
+}
+
+.feature i {
+    height: 80px;
+}
+
+.feature p {
+    color: rgb(53, 53, 53);
+}
+
+.third {
+    width: 100;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+.collection1 {
+    background-image: url(./images/women.jpg);
+    width: 500px;
+    height: 550px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    transition: background-size 0.3s ease-in-out;
+    
+}
+
+.collection2 {
+    background-image: url(./images/children.jpg);
+    width: 500px;
+    height: 550px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    transition: background-size 0.3s ease-in-out;
+}
+
+.collection3 {
+    background-image: url(./images/men.jpg);
+    width: 500px;
+    height: 550px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    transition: background-size .3s ease-in-out;
+}
+
+.collection1:hover, .collection2:hover, .collection3:hover {
+    background-size: 110%;
+
+}
+
+.cl-text {
+    position: absolute;
+    bottom: 0px;
+    left: 10px;
+    color: white;
+    
+}
+
+.cl-text h2 {
+    font-size: 40px;
+    
+}
+
+.cl-text p {
+    position: absolute; 
+    margin-bottom: 10px;
+}
+
+.collection1::before,
+.collection2::before,
+.collection3::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.5;
+    
+}
+
+.fourth {
+    width: 100;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(223, 223, 223, 0.5);
+    
+}
+
+.fourth h1 {
+    margin: 20px;
+}
+
+.wraper {
+    display: flex;
+    width: 90%;
+    height: 90%;
+    justify-content: center;
+    gap: 25px;
+    padding: 40px;
+
+}
+
+.wraper section {
+    background-color: white;
+    width: 400px;
+    height: 410px;
+    text-align: center;
+}
+
+.wraper img {
+    width: 400px;
+}
+
+.wraper h4 {
+    color: #853de6;
+}
+
+.wraper p {
+    color: grey;
+    margin-top: -15px;
+}
+
+.sh4 {
+    margin-top: -10px;
+}
+
+.fifth {
+    width: 100;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    border-bottom: 2px solid rgba(204, 204, 204, 0.575); 
+    margin: 0;
+}
+
+
+.wraper2 {
+    width: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top: -10px;
+    
+}
+.w-text {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.wraper2 h2 {
+    color: #853de6;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.p1 {
+    color: grey;
+    margin-top: -13px;
+}
+
+span {
+    color: #853de6;
+    
+}
+
+.space {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.p2 {
+    width: 430px;
+    margin-top: 5px;
+}
+
+.wraper2 p {
+    color: grey;
+    line-height: 1.5;
+    
+}
+
+.wraper2 img {
+    width: 800px;
+    margin-top: 30px;
+}
+
+.wraper2 button {
+    width: 120px;
+        height: 40px;
+        background-color: #853de6;
+        color: #d6bbec;
+        border-radius: 5px;
+        margin-top: 15px;
+        border: none;
+        transition: transform 0.3s ease;
+}
+
+.wraper2 button:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.76);
+    cursor: pointer;
+}
+
+.sixth {
+    width: 100;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 30px;
+
+
+}
+
+.sixth img {
+    width: 280px;
+}
+
+.address,
+.number,
+.email {
+    display: flex;
+    gap: 10px;
+}
+
+.sixth i {
+    margin-top: 9px;
+    height: 30px;
+}
+
+.sixth p {
+    color: rgb(105, 105, 105);
+    transition: transform 0.3s ease;
+}
+
+.sixth p:hover {
+    transform: translatey(-3px);
+    cursor: pointer;
+    
+}
+
+#purple {
+    color: #853de6;
+}
+
+.sixth div {
+    height: 30px;
+}
+
+.a1 {
+    margin-top: 60px;
+}
+
+.a2 {
+    margin-top: 60px;
+}
+
+.wraper3 {
+    position: relative;
+    width: 220px;
+    height: 30px;
+}
+
+.email {
+    width: 220px;
+    height: 30px;
+}
+
+.send {
+    height: 36px;
+    width: 60px;
+    position: absolute;
+    top: 0;
+    right: -7px;
+    background-color: #853de6;
+    color: #d6bbec;
+    font-size: 12px;
+    transition: transform 0.3s ease;
+}
+
+.send:hover {
+    transform: scale(105%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.76);
+    cursor: pointer;
+}
+
+
+
+.seventh {
+    width: 100;
+    height: 40px;
+    text-align: center;
+}
+

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./checkout.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2b29fe3c9b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav class="nav1">
+            <div class="nav-left">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="nav-center">
+                <h1>AhmedKamal</h1>
+            </div>
+            <div class="nav-right">
+                <i class="fa-sharp fa-solid fa-user"></i>
+                <i class="fa-sharp fa-regular fa-heart"></i>
+                <i class="fa-sharp fa-solid fa-cart-shopping"></i>
+            </div>
+        </nav>
+        <nav  class="nav2">
+            <a href="./1.html" >HOME</a>
+            <a href="./about.html">ABOUT</a>
+            <a href="./shop.html">SHOP</a>
+            <a href="">CATALOGUE</a>
+            <a href="">NEW ARRIVALS</a>
+            <a href="">CONTACT</a>
+        </nav>
+    </header>
+    <div class="home">
+        <p><span class="purple">Home</span> / <span class="purple">Cart</span> / Product</p>
+    </div>
+
+    <div class="home2">
+        <p>Returning customer? <span class="purple">Click here</span> to login</p>
+    </div>
+
+    <section class="checkout">
+       <div class="ch-left">
+        <h2>Billing Details</h2>
+     <form id="form">
+        <label class="country" for="country">Country:</label>
+        <select id="country" name="country">
+         <option value="usa">USA</option>
+         <option value="canada">Canada</option>
+         <option value="uk">UK</option>
+        </select>
+        <br>
+         <section class="fl">
+            <div>
+        <label for="firstName">First Name:</label>
+          <input type="text" id="firstName" name="firstName">
+             </div>
+             <div>
+        <label for="lastName">Last Name:</label>
+           <input type="text" id="lastName" name="lastName">
+           </div>
+        </section>
+    
+        <label for="company">Company Name:</label>
+        <input type="text" id="company" name="company">
+           <br>
+        <label for="address">Address:</label>
+        <input type="text" id="address" name="address">
+        <br>
+        <input type="text" id="address" name="address">
+          <br>
+        <div class="fl">
+        <div>
+         <label for="state">State:</label>
+         <input type="text" id="state" name="state">
+       </div>
+       <div>
+      <label for="zip">ZIP/Post:</label>
+      <input type="text" id="zip" name="zip">
+      </div>
+      </div>
+  
+      <div class="fl">
+      <div>
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" name="email">
+      </div>
+      <div>
+      <label for="phone">Phone:</label>
+      <input type="text" id="phone" name="phone">
+      </div>
+     </div>
+     <br>
+      <div class="radio">
+        <input class="rb" type="radio">
+        <label class="rl" for="radio">Create an account?</label>
+      </div>
+      <div class="radio">
+        <input class="rb" type="radio">
+        <label class="rl" for="radio">Ship To A Differant Address?</label>
+      </div>
+      <label for="notes">Order Notes:</label>
+      <input id="notes" type="text">
+    </form>
+       </div>
+       <div class="ch-right">
+        <h2>Coupon Code</h2>
+        <section class="first-right">
+            <p>Enter your coupon code if you have one</p>
+            <div class="wraper3">
+              <input class="email" type="email" placeholder="Coupon Code">
+              <button class="send">APPLY</button>
+              </div>
+        </section>
+        <h2>Your Order</h2>
+        <section class="second-right">
+          <p class="bold">Product <span class="space1"></span>$250</p>
+          <hr>
+          <p class="grey">Top Up T-shirt x 1 <span class="space2"></span>$250</p>
+          <hr>
+          <p class="grey">Polo Shirt x 1 <span class="space3"></span>$100</p>
+          <hr>
+          <p class="bold">Cart Subtotal<span class="space4"></span>$350</p>
+          <hr>
+           <p class="bold">Order Total<span class="space5"></span>$350</p>
+        <br>
+            <p id="border" class="purple bold">Direct Bank Transfer</p>
+            <p id="border" class="purple bold">Cheque Payment</p>
+            <p id="border" class="purple bold">Paypal</p>
+           <a href="./thanks.html"><button class="bt">PLACE ORDER</button></a>
+        </section>
+       </div>
+    </section>
+    <section class="sixth">
+             <div>
+              <h3>Navigation</h3>
+              <p>Sell online</p>
+              <p>Features</p>
+              <p>Shopping cart</p>
+              <p>Store builder</p>
+             </div>
+             <div>
+              <p  class="a1">Mobile commerce</p>
+              <p>Dropshipping</p>
+              <p>Website development</p>
+             </div>
+             <div>
+              <p  class="a2">Point of sale</p>
+              <p>Hardware</p>
+              <p>Software</p>
+             </div>
+             <div>
+              <h3>Promo</h3>
+              <img src="./images/hero_1.jpg">
+              <p id="purple">Finding Your Perfect Shoes</p>
+              <p>Promo from January 15 -- 25, 2019</p>
+             </div>
+             <div>
+              <h3>Contact info</h3>
+              <section class="address">
+              <i><i class="fa-sharp fa-solid fa-location-dot" style="color: #853de7;"></i></i>
+              <p>456 Elmwood Avenue, Springdale Heights, San <br> Francisco, CA 98765</p>
+              </section>
+              <section class="number">
+                <i><i class="fa-sharp fa-solid fa-phone" style="color: #853de7;"></i></i>
+                <p>+201062949695</p>
+              </section>
+              <section class="email">
+                <i><i class="fa-sharp fa-solid fa-envelope" style="color: #853de7;"></i></i>
+                <p>ahmeddkamall69@gmail.com</p>
+              </section>
+              <h4>Subscribe</h4>
+              <div class="wraper3">
+              <input class="email" type="email" placeholder="Email">
+              <button class="send">SEND</button>
+              </div>
+             </div>
+        </section>
+        <section class="seventh">
+          <p>Copyright <i class="fa-sharp fa-regular fa-copyright" style="color: rgb(155, 155, 155);"></i> 2021 All rights reserved | This template is made with <i class="fa-sharp fa-solid fa-heart" style="color: rgb(155, 155, 155);"></i> AhmedKamal</p>
+        </section>
+</body>
+</html>
